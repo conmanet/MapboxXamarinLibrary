@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapboxXamarinDroidSdk", "MapboxXamarinDroidSdk\MapboxXamarinDroidSdk.csproj", "{D934AB0A-E082-488B-90C3-28ECC513B0AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D934AB0A-E082-488B-90C3-28ECC513B0AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D934AB0A-E082-488B-90C3-28ECC513B0AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D934AB0A-E082-488B-90C3-28ECC513B0AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D934AB0A-E082-488B-90C3-28ECC513B0AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

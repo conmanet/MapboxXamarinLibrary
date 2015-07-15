@@ -1,0 +1,11 @@
+﻿<Properties StartupItem="MapboxXamarinDroidSdk\MapboxXamarinDroidSdk.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_5_API_22_x86" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="..\sdk_3d\dotnet\generated_ios\proxies\RedrawRequestListener.cs" line="56" offsetX="531" offsetY="825" expression="swigSelfHandle" liveUpdate="False" />
+    <Watch file="..\hellomap3d-dotnet-master\hellomap-shared\MapSetup.cs" line="26" offsetX="676" offsetY="375" expression="mapView" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

@@ -1,0 +1,30 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='uk.co.senab.bitmapcache']/class[@name='WeakReferenceRunnable']" name="visibility">public</attr>
+  <remove-node path="/api/package[@name='com.mapbox.mapboxsdk.overlay']/class[@name='OverlayManager']/method[@name='get']" />
+  <remove-node path="/api/package[@name='com.almeros.android.multitouch']/class[@name='RotateGestureDetector']/method[@name='handleInProgressEvent']" />
+  <remove-node path="/api/package[@name='com.almeros.android.multitouch']/class[@name='RotateGestureDetector']/method[@name='handleStartProgressEvent']" />
+
+  <remove-node path="/api/package[@name='com.almeros.android.multitouch']/class[@name='ShoveGestureDetector']/method[@name='handleInProgressEvent']" />
+  <remove-node path="/api/package[@name='com.almeros.android.multitouch']/class[@name='ShoveGestureDetector']/method[@name='handleStartProgressEvent']" />
+
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.tileprovider.modules']/class[@name='MapTileModuleLayerBase.TileLoader']/method[@name='loadTile']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.overlay']/class[@name='TilesOverlay.ScaleTileLooper']/method[@name='handleScaleTile']" name="visibility">public</attr>
+
+  <remove-node path="/api/package[@name='com.mapbox.mapboxsdk.tileprovider']/class[@name='MapTileLayerBase.CacheTask']/method[@name='doInBackground']" />
+
+  <remove-node path="/api/package[@name='com.almeros.android.multitouch']/class[@name='BaseGestureDetector']/method[@name='handleInProgressEvent']" />
+  <remove-node path="/api/package[@name='com.almeros.android.multitouch']/class[@name='BaseGestureDetector']/method[@name='handleStartProgressEvent']" />
+  <remove-node path="/api/package[@name='com.almeros.android.multitouch']/class[@name='TwoFingerGestureDetector']/method[@name='handleInProgressEvent']" />
+  <remove-node path="/api/package[@name='com.almeros.android.multitouch']/class[@name='TwoFingerGestureDetector']/method[@name='handleStartProgressEvent']" />
+
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.overlay']/class[@name='TilesOverlay.ZoomOutTileLooper']/method[@name='handleScaleTile']" name="visibility">public</attr>
+  <!--<remove-node path="/api/package[@name='uk.co.senab.bitmapcache']/class[@name='CacheableBitmapDrawable']/constructor[@name='CacheableBitmapDrawable']" />
+  <remove-node path="/api/package[@name='com.mapbox.mapboxsdk.tileprovider']/class[@name='MapTileCache']/method[@name='decodeBitmap']" />-->
+</metadata>
